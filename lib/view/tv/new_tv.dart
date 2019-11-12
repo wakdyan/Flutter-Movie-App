@@ -1,18 +1,13 @@
 import 'dart:convert';
 
-// import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:http/http.dart' as http;
 import 'package:movie_app/model/tv_model.dart';
-import 'package:movie_app/other/shimmer.dart';
 import 'package:movie_app/style/new_shimmer.dart';
-import 'package:movie_app/style/popular_shimmer.dart';
-
 import 'package:movie_app/style/text_style.dart';
 import 'package:movie_app/view/detail/detail.dart';
-// import 'package:movie_app/style/text_style.dart';
 
 class NewTv extends StatefulWidget {
   @override
