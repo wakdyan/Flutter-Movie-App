@@ -25,9 +25,7 @@ samples, guidance on mobile development, and a full API reference.
 * CircleAvatar
 * Column
 * Container
-* Gradient
-  + RadialGradient
-  + LinearGradient
+* LinearGradient
 * GridView
 * Icon
 * Image
