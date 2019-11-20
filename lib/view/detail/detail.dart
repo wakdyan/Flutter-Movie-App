@@ -35,7 +35,7 @@ class _DetailPageState extends State<DetailPage> {
 
   var id, type;
 
-  final String apiKey = "1fe418d6e2a945b14dbd5a8ad761891d";
+  final String apiKey = "API_KEY";
 
   getGenre(int id, String type) async {
     final String urlDetail =

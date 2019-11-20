@@ -21,7 +21,7 @@ class _PopularMovieState extends State<PopularMovie> {
   List<Movies> moviePopular = [];
 
   getPopularMovie() async {
-    final String apiKey = "1fe418d6e2a945b14dbd5a8ad761891d";
+    final String apiKey = "API_KEY";
     final String url =
         "https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US";
     var response = await http.get(url);

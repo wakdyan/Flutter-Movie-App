@@ -20,7 +20,7 @@ class _MovieItemState extends State<NewMovie> {
   List<Movies> moviePopular = [];
 
   getNewMovie() async {
-    final String apiKey = "1fe418d6e2a945b14dbd5a8ad761891d";
+    final String apiKey = "API_KEY";
     final String urlNew =
         "https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}&language=en-US";
     var response = await http.get(urlNew);

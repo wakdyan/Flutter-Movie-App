@@ -21,7 +21,7 @@ class _PopularMovieState extends State<PopularTv> {
   List<Tv> popularTv = [];
 
   getPopularTv() async {
-    final String apiKey = "1fe418d6e2a945b14dbd5a8ad761891d";
+    final String apiKey = "API_KEY";
     final String url =
         "https://api.themoviedb.org/3/tv/popular?api_key=${apiKey}&language=en-US";
     var response = await http.get(url);

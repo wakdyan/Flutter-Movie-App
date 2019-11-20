@@ -18,7 +18,7 @@ class _TvItemState extends State<NewTv> {
   List<Tv> newTv = [];
 
   getNewMovie() async {
-    final String apiKey = "1fe418d6e2a945b14dbd5a8ad761891d";
+    final String apiKey = "API_KEY";
     final String urlNew =
         "https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}&language=en-US";
     var response = await http.get(urlNew);
